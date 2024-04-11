@@ -1,0 +1,3894 @@
+@import url("./fonts.css");
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Neutral'; 
+    
+}
+p {
+    font-family: 'Manrope-med';
+}
+
+.gg{
+    height: 20px;
+    width: 20px;
+}
+header .container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    align-items: center;
+    margin-top: 20px;
+}
+ .container .hrefs img{
+    width: 10px;
+}
+ .container a{
+    color: black;
+}
+ .container .world{
+    text-decoration: none;
+    color: black;
+}
+ .container .hrefs{
+    display: flex;
+    gap: 5px;
+}
+ .container .logo{
+    text-transform: uppercase;
+    font-size: 25px;
+    color: black;
+    transition: .3s;
+}
+.people {
+    width: 100%;
+    border-top: 1px solid rgb(88, 88, 88);
+    border-bottom: 1px solid rgb(88, 88, 88);
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.people .container {
+    width: 80%;
+    display: flex;
+    gap: 25px;
+    font-size: 15px;
+    justify-content: center;
+}
+
+.people .container a {
+    font-size: 19px;
+    transition: .3s;
+}
+.people .container p {
+    color: rgb(0, 0, 0);
+    
+}
+.shop  {
+    margin-bottom: 100px;
+}
+
+.shop  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.shop  .container .mono {
+    width: 75%;
+}
+
+.shop  .container .mono img {
+    width: 720px;
+    height: 400px;
+}
+
+.shop  .container .mono h2 {
+    font-size: 115px;
+    font-weight: 100;
+}
+
+.shop .container .online img {
+    height: 400px;
+    width: 100%;
+    margin-top: -80px;
+    margin-left: 30px;
+}
+
+.shop  .container .online p {
+    margin-bottom: 80px;
+    font-size: 16px;
+    color: #000000;
+    margin-left: 30px;
+    width: 100%;
+}
+
+.shop  .container .online {
+    height: 100%;
+    width: 25%;
+    margin-top: 90px;
+}
+
+.kategories  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.kategories  .container .cell img {
+    margin-bottom: 10px;
+    width: 50%;
+    height: 300px;
+}
+.kategories-text {
+    margin-bottom: 60px;
+}
+.kategories-text .container .mono  {
+    font-size: 60px;
+    font-weight: 100px;
+}
+.kategories  {
+    margin-bottom: 100px;
+}
+
+.kategories p{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 8px;
+    color: black;
+}
+
+
+.collection{
+    background-image: url(../img/6.jpg);
+    background-size: cover; 
+    height: 750px;
+    margin-top: 100px;
+}
+.collection .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.collection .new {
+    height: 300px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px;
+    position: relative;
+    top: 100px;
+}
+
+.collection p {
+    font-family: "Manrope-r";
+    color: rgb(255, 255, 255);
+    font-weight: 100;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.collection .new a {
+    font-family: "Manrope-r";
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    border: 1.5px solid rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    width: 300px;
+    height: 65px;
+    margin-top: 30px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.collection .new a:hover {
+    font-family: "Manrope-r";
+    color: rgb(133, 133, 133);
+    font-size: 17px;
+    border: 1.5px solid white;
+    background-color: white;
+    padding: 10px;
+    width: 280px;
+    height: 45px;
+    margin-top: 30px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.collection .new h2{
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-weight: lighter;
+
+}
+.sezon .container{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px;
+    flex-direction: row;
+}
+.sezon .title{
+position: relative;
+margin-top: 80px;
+}
+
+.sezon h1{
+    font-size: 70px;  
+    font-family: "Neutral";
+    width: 50%;
+}
+.sezon h2{
+    font-size: 70px;
+    position: relative;
+    left: 520px; 
+    font-family: "Neutral";  
+    width: 50%;
+}
+.sezon p{
+font-size: 20px; 
+color: black;   
+}
+.sezon .second{
+    display: flex;
+    flex-direction: column;
+    gap: 38px;  
+}
+.section-tovar .container{
+    padding: 70px 60px 60px 60px;
+    display: flex;
+    gap: 100px;
+}
+.container2{
+    width: 500px;
+    margin: 0 auto;
+    padding: 30px 0 20px 0;
+}
+.container2 .perecluch .line p {
+    font-size: 16px;
+    margin-top: 20px;
+    color: #000000;
+    width: 400px;
+    line-height: 25px;
+}
+.container2 label {
+    width: 100%;
+    justify-content: space-between;
+    font-size: 18px;
+   margin-right: 70px;
+}
+.container2 input{
+    display: none;
+}
+#input1:checked ~  #label1,
+#input2:checked ~  #label2,
+#input3:checked ~  #label3{
+    text-decoration: underline;
+}
+.perecluch{
+    width: 100%;
+    overflow: hidden;
+}
+.line{
+    width: 500px;
+    display: flex;
+    overflow-x: hidden;
+}
+.text{
+    width: calc(100%/3);
+    /*animation: carousel 10s ease-in-out alternate infinite;*/
+    transition: 1s;
+}
+
+#input1:checked ~ .perecluch .text{
+    transition: 1s;
+    transform: translateX(0);
+}
+#input2:checked ~ .perecluch .text{
+    transition: 1s;
+    transform: translateX(-100%);
+}
+#input3:checked ~ .perecluch .text{
+    transition: 1s;
+    transform: translateX(-200%);
+}
+    @keyframes carousel {
+    0%,20%{
+        transform: translateX(0);
+    }
+    30%,70%{
+        transform: translateX(-100%);
+    }
+    80%,100%{
+        transform: translateX(-200%);
+    }
+}
+.section-tovar p{
+    color: #000000;
+    font-family: "Manrope-m";
+}
+.section-tovar .description{
+    font-size: 20px;
+    width: 400px;
+    margin: 20px 0 30px 0;
+}
+
+.section-tovar h1{
+    font-family: "Neutral";
+    font-size: 50px;
+}
+.section-tovar .info-tovar{
+    display: flex;
+    gap: 300px;
+    font-family: "Manrope-m";
+}
+.section-tovar .info-tovar{
+   font-size: 15px;
+}
+.section-tovar .price{
+    display: flex;
+    align-items:center ;
+    gap: 40px;
+}
+.section-tovar .container .half{
+    margin-left: -50px;
+    width: 52%;
+}
+.section-tovar .price p{
+font-size: 35px;
+font-family: "Neutral";
+}
+.section-tovar .price .promo{
+border:solid 1.5px #8b8b8bad;
+font-size: 15px;
+padding: 10px;
+height: 45px;
+width: 300px;
+}
+
+.section-tovar select{
+border:solid 1.5px #8b8b8bad ;
+font-size: 15px;
+padding: 10px;
+height: 45px;
+width: 430px;
+color: #8b8b8bad;
+margin: 15px 0 50px 0;
+}
+.section-tovar select option{
+    color: #000000;
+}
+.section-tovar a {
+    font-family: "Manrope-r";
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    border: 1.5px solid rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+    padding: 15px;
+    width: 480px;
+    height: 55px;
+    margin-top: 30px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.section-tovar a:hover {
+    font-family: "Manrope-r";
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    border: 1.5px solid rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+    padding: 15px;
+    width: 480px;
+    height: 55px;
+    margin-top: 30px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.advantages{
+    background-color: black; 
+    height: 200px;
+    
+}
+.advantages .container {
+    display: flex;
+    justify-content: space-around;
+    
+}
+.advantages .container .cell .swag {
+    
+    fill: #ffffff;
+    height: 35px;
+    width: 35px;
+    margin-top: 30px;
+}
+.advantages .container .cell .swag2 {
+    
+    fill: #ffffff;
+    height: 50px;
+    width: 50px;
+    margin-top: 18px;
+}
+.advantages .cell h3, p{
+    font-family: "Manrope-m";
+    color: rgb(255, 252, 252);
+    margin-top: 7px;
+}
+.advantages .cell p{
+    font-size: 15px;   
+}
+.advantages .cell{
+width: 200px;
+margin: 20px;
+}
+.about p{
+    color: black;
+    margin: 15px;
+    width: 600px;
+    font-size: 20px;
+}
+
+.about .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px 0 100px;
+}
+.about h2{
+    font-size: 65px;
+    margin: 15px;
+    display: flex;
+    justify-content: start;
+    font-family: "Neutral";
+}
+.about .container img{
+height: 630px;
+width: 430px;
+margin: 100px 50px 100px 70px;
+position: relative;
+right: 50px;
+}
+.history{
+position: relative;
+right: 50px;
+}
+.podpiska{
+    background-color: #000000;
+}
+.podpiska .container{
+    padding: 100px 120px 100px 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid 1.5px #ffffff;
+}
+.podpiska .zagolovok{
+position: relative;
+left: 120px;
+top: 80px;
+width: 50%;
+}    
+.podpiska h2{
+font-size: 70px; 
+display: flex;
+justify-content: start; 
+color: #ffffff;
+font-family: "Neutral";
+width: 40%;
+}
+.podpiska h3{
+font-size: 70px;
+position: relative;
+left:440px; 
+color: #ffffff;  
+font-family: "Neutral";
+}
+.podpiska .cell p{
+    font-size: 22px;
+    width: 560px;
+    margin: 8px 0 20px 0;
+}
+.podpiska .cell img{
+    width: 550px;
+}
+.podpiska .name, .number, .email{
+    background-color: black;
+    border: solid 1.5px #ffffffad;
+    padding: 15px;
+    width: 550px;
+    font-size: 15px;
+    color: #ffffff;
+}
+.podpiska .reg{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.podpiska .knopka{
+    color: #ffffff;
+    display: flex;
+    gap: 8px;
+    font-size: 17px;
+}
+.podpiska .container  .knopka2 label {
+    color: rgba(240, 240, 240, 0.637);
+    font-size: 17px;
+}
+
+.podpiska .container .knopka2 {
+    margin-bottom: 20px;
+    margin-top: -20px;
+}
+
+.podpiska .container .butt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.podpiska .container  .butt button {
+    width: 100%;
+    height: 65px;
+    color: rgb(10, 10, 10);
+    font-size: 19px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    transition: .3s;
+}
+
+.podpiska .container  .butt button:hover {
+    transition: .5s;
+    background-color: rgb(21, 38, 57);
+    cursor: pointer;
+}
+
+
+footer {
+    background-color: rgb(10, 10, 10);
+    display: flex;
+    justify-content: center;
+    height: 150px;
+}
+
+footer .footer {
+    width: 100%;
+}
+
+footer .footer .container {
+    display: flex;
+    justify-content: space-between;
+    color: rgb(240, 240, 240);
+    align-items: center;
+    height: 150px;
+}
+
+footer .footer .container p {
+    font-size: 13px;
+    margin-left: 200px;
+}
+
+footer .footer .container .icon {
+    display: flex;
+}
+
+footer .footer .container .icon .fa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(240, 240, 240);
+    margin-right: 20px;
+    font-size: 15px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+footer .footer .container .icon .fa:hover {
+    transition: .5s;
+    background-color: #fffbfb;
+    
+}
+.footer .confid a{
+    font-family: "Manrope-r";
+    text-decoration: underline;
+    color: #ffffff;
+    font-size: 13px;
+    margin-left: -250px;
+}
+@media (max-width: 1200px) {
+    .container {
+        width: 98%;
+    }
+
+    header .container {
+        width: 98%;
+    }
+    .shop  {
+        margin-bottom: 100px;
+        margin-left: 50px;
+    }
+    
+    .shop  .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .shop  .container .mono {
+        width: 75%;
+    }
+    
+    .shop  .container .mono img {
+        width: 720px;
+        height: 400px;
+    }
+    
+    .shop  .container .mono h2 {
+        font-size: 115px;
+        font-weight: 100;
+    }
+    
+    .shop .container .online img {
+        height: 400px;
+        width: 95%;
+        margin-top: 0px;
+        margin-left: -40px;
+    }
+    
+    .shop  .container .online p {
+        margin-bottom: 10px;
+        font-size: 16px;
+        color: #000000;
+        margin-left: -30px;
+        width: 100%;
+    }
+    
+    .shop  .container .online {
+        height: 100%;
+        width: 25%;
+        margin-top: -30px;
+    }
+    .shop .container .online {
+        margin-top: 90px;
+    }
+
+    .kategories .container .cell img {
+        width: 280px;
+        margin-left: 0px;
+    }
+    .kategories .container .cell p{
+        margin-left: 0px;
+    }
+    .kategories-text .container .mono {
+        margin-left: 30px;
+    }
+    .kategories .container {
+        width: 90%;
+        margin-left: 30px;
+    }
+    .collection{
+        background-image: url(../img/6.jpg);
+        background-size: cover; 
+        height: 650px;
+        margin-top: 100px;
+    }
+    .collection .new {
+        height: 200px;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 15px;
+        position: relative;
+        top: 100px;
+    }
+    .collection p {
+        font-family: "Manrope-r";
+        color: rgb(255, 255, 255);
+        font-weight: 100;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .collection .new h2{
+        font-size: 50px;
+        display: flex;
+        justify-content: center;
+        color: rgb(255, 255, 255);
+        font-weight: lighter;
+        
+    
+    }
+    .sezon .container .blue img {
+        width: 310px;
+    }
+
+    .sezon  .container .second .red img {
+        width: 300px;
+    }
+    .sezon  .container {
+        display: flex;
+        gap: 25px;
+        justify-content: center;
+    }
+    .sezon  .container .second .green img {
+        width: 300px;
+    }
+    .sezon .container{
+        margin-left: 0px;
+        margin-top: 50px;
+    }
+    .sezon .title h1{
+        font-size: 55px;
+        margin-left: 110px;
+    }
+    .sezon .title h2{
+        font-size: 55px;
+        margin-left: 27px;
+        margin-top: 10px;
+    }
+    .sezon  .container .pink img {
+        width: 310px;
+    }
+    .section-tovar .container{
+        padding: 70px 60px 60px 60px;
+        display: flex;
+        gap: 100px;
+    }
+    .container2{
+        width: 400px;
+        margin: 0 auto;
+        padding: 30px 0 20px 0;
+    }
+    .container2 .perecluch .line p {
+        font-size: 16px;
+        margin-top: 20px;
+        color: #000000;
+        width: 320px;
+        line-height: 25px;
+    }
+    .container2 label {
+        width: 100%;
+        justify-content: space-between;
+        font-size: 18px;
+       margin-right: 70px;
+    }
+    .container2 input{
+        display: none;
+    }
+    #input1:checked ~  #label1,
+    #input2:checked ~  #label2,
+    #input3:checked ~  #label3{
+        text-decoration: underline;
+    }
+    .perecluch{
+        width: 80%;
+        overflow: hidden;
+    }
+    .line{
+        width: 400px;
+        display: flex;
+        overflow-x: hidden;
+    }
+    .text{
+        width: calc(100%/3);
+        /*animation: carousel 10s ease-in-out alternate infinite;*/
+        transition: 1s;
+    }
+    
+    #input1:checked ~ .perecluch .text{
+        transition: 1s;
+        transform: translateX(0);
+    }
+    #input2:checked ~ .perecluch .text{
+        transition: 1s;
+        transform: translateX(-100%);
+    }
+    #input3:checked ~ .perecluch .text{
+        transition: 1s;
+        transform: translateX(-200%);
+    }
+        @keyframes carousel {
+        0%,20%{
+            transform: translateX(0);
+        }
+        30%,70%{
+            transform: translateX(-100%);
+        }
+        80%,100%{
+            transform: translateX(-200%);
+        }
+    }
+    .section-tovar p{
+        color: #000000;
+        font-family: "Manrope-m";
+    }
+    .section-tovar .description{
+        font-size: 20px;
+        width: 400px;
+        margin: 20px 0 30px 0;
+    }
+    
+    .section-tovar h1{
+        font-family: "Neutral";
+        font-size: 50px;
+    }
+    .section-tovar .info-tovar{
+        display: flex;
+        gap: 220px;
+        font-family: "Manrope-m";
+    }
+    .section-tovar .info-tovar p{
+       font-size: 15px;
+       margin-left: -0px;
+    }
+    .section-tovar .price{
+        display: flex;
+        align-items:center ;
+        gap: 40px;
+    }
+    .section-tovar .price p{
+    font-size: 35px;
+    font-family: "Neutral";
+    width: 100%;
+    }
+    .section-tovar .price .promo{
+    border:solid 1.5px #8b8b8bad;
+    font-size: 15px;
+    padding: 10px;
+    height: 45px;
+    width: 300px;
+    }
+    
+    .section-tovar select{
+    border:solid 1.5px #8b8b8bad ;
+    font-size: 15px;
+    padding: 10px;
+    height: 45px;
+    width: 430px;    
+    color: #8b8b8bad;
+    margin: 15px 0 50px 0;
+    }
+    .section-tovar select option{
+        color: #000000;
+    }
+    .section-tovar a {
+        font-family: "Manrope-r";
+        color: rgb(255, 255, 255);
+        font-size: 16px;
+        border: 1.5px solid rgb(0, 0, 0);
+        background-color: rgb(0, 0, 0);
+        padding: 15px;
+        width: 430px;
+        height: 55px;
+        margin-top: 30px;
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .section-tovar a:hover {
+        font-family: "Manrope-r";
+        color: rgb(255, 255, 255);
+        font-size: 18px;
+        border: 1.5px solid rgb(0, 0, 0);
+        background-color: rgb(35, 46, 72);
+        padding: 15px;
+        width: 430px;
+        height: 55px;
+        margin-top: 30px;
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .container2 label {
+        width: 100%;
+        justify-content: space-between;
+        font-size: 14px;
+       margin-right: 20px;
+    }
+    .podpiska h2{
+        font-size: 50px; 
+        width: 40%;
+        }
+        .podpiska h3{
+        font-size: 50px;
+        width: 100%;
+        }
+        .podpiska .reg{
+            margin-right: -90px;
+            margin-top: 40px;
+        }
+        .podpiska .name, .number, .email{
+            border: solid 1px #ffffffad;
+            padding: 15px;
+            width: 400px;
+            font-size: 13px;
+        }
+        .podpiska .knopka{
+            color: #ffffff;
+            display: flex;
+            gap: 8px;
+            font-size: 10px;
+        }
+        .podpiska .container  .knopka2 label {
+            color: rgba(240, 240, 240, 0.637);
+            font-size: 10px;
+        }
+        .podpiska .container .knopka2 {
+            margin-bottom: 20px;
+            margin-top: -20px;
+        }
+        .podpiska .container .butt {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .podpiska .container  .butt button {
+            width: 100%;
+            height: 60px;
+            color: rgb(10, 10, 10);
+            font-size: 17px;
+            font-weight: 100;
+            letter-spacing: 1px;
+            transition: .3s;
+        }
+        .podpiska .container  .butt button:hover {
+            transition: .5s;
+            background-color: rgb(21, 38, 57);
+            cursor: pointer;
+        }  
+        footer {
+            background-color: rgb(10, 10, 10);
+            display: flex;
+            justify-content: center;
+            height: 150px;
+        }
+        footer .footer {
+            width: 100%;
+        }
+        footer .footer .container {
+            display: flex;
+            justify-content: space-between;
+            color: rgb(240, 240, 240);
+            align-items: center;
+            height: 150px;
+        }
+        footer .footer .container p {
+            font-size: 13px;
+            margin-left: 100px;
+        }
+        footer .footer .container .icon {
+            display: flex;
+        }
+        footer .footer .container .icon .fa {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid rgb(240, 240, 240);
+            margin-right: 20px;
+            font-size: 15px;
+            width: 30px;
+            height: 30px;
+            cursor: pointer;
+            transition: .3s;
+        }
+        footer .footer .container .icon .fa:hover {
+            transition: .5s;
+            background-color: #fffbfb;
+            
+        }
+        .footer .confid a{
+            font-family: "Manrope-r";
+            text-decoration: underline;
+            color: #ffffff;
+            font-size: 13px;
+            margin-left: 50px;
+        }
+        .about p{
+            color: black;
+            margin: px;
+            width: 400px;
+            font-size: 20px;
+        }
+}
+
+@media (max-width: 1024px) {
+    .container {
+        width: 98%;
+    }
+
+    header .container {
+        width: 98%;
+    }
+    .shop  {
+        margin-bottom: 100px;
+        margin-left: 50px;
+    }
+    
+    .shop  .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .shop  .container .mono {
+        width: 75%;
+    }
+    
+    .shop  .container .mono img {
+        width: 620px;
+        height: 350px;
+    }
+    
+    .shop  .container .mono h2 {
+        font-size: 100px;
+        font-weight: 100;
+    }
+    
+    .shop .container .online img {
+        height: 350px;
+        width: 95%;
+        margin-top: -130px;
+        margin-left: -40px;
+    }
+    
+    .shop  .container .online p {
+        margin-bottom:140px;
+        font-size: 16px;
+        color: #000000;
+        margin-left: -30px;
+        width: 100%;
+    }
+    
+    .shop  .container .online {
+        height: 100%;
+        width: 25%;
+        margin-top: -30px;
+    }
+    .shop .container .online {
+        margin-top: 90px;
+    }
+
+    .kategories .container .cell img {
+        width: 280px;
+        margin-left: 0px;
+    }
+    .kategories .container .cell p{
+        margin-left: 0px;
+    }
+    .kategories-text .container .mono {
+        margin-left: 30px;
+    }
+    .kategories .container {
+        width: 90%;
+        margin-left: 30px;
+    }
+    .collection{
+        background-image: url(../img/6.jpg);
+        background-size: cover; 
+        height: 550px;
+        margin-top: 100px;
+    }
+    .collection .new {
+        height: 200px;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 15px;
+        position: relative;
+        top: 100px;
+        margin-left: 100px;
+    }
+    .collection p {
+        font-family: "Manrope-r";
+        color: rgb(255, 255, 255);
+        font-weight: 100;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .collection .new h2{
+        font-size: 40px;
+        display: flex;
+        justify-content: center;
+        color: rgb(255, 255, 255);
+        font-weight: lighter;
+        
+    
+    }
+    .sezon .container .blue img {
+        width: 280px;
+    }
+
+    .sezon  .container .second .red img {
+        width: 240px;
+    }
+    .sezon  .container {
+        display: flex;
+        gap: 25px;
+        justify-content: center;
+    }
+    .sezon  .container .second .green img {
+        width: 240px;
+    }
+    .sezon .container{
+        margin-left: -10px;
+        margin-top: 50px;
+        width: 100%;
+    }
+    .sezon .title h1{
+        font-size: 45px;
+        margin-left: 110px;
+    }
+    .sezon .title h2{
+        font-size: 45px;
+        margin-left: -40px;
+        margin-top: 10px;
+    }
+    .sezon  .container .pink img {
+        width: 280px;
+    }
+    .section-tovar .container{
+        padding: 70px 60px 60px 60px;
+        display: flex;
+        gap: 100px;
+    }
+    .container2{
+        width: 400px;
+        margin: 0 auto;
+        padding: 30px 0 20px 0;
+    }
+    .container2 .perecluch .line p {
+        font-size: 16px;
+        margin-top: 20px;
+        color: #000000;
+        width: 320px;
+        line-height: 25px;
+    }
+    .container2 label {
+        width: 100%;
+        justify-content: space-between;
+        font-size: 18px;
+       margin-right: 70px;
+    }
+    .container2 input{
+        display: none;
+    }
+    #input1:checked ~  #label1,
+    #input2:checked ~  #label2,
+    #input3:checked ~  #label3{
+        text-decoration: underline;
+    }
+    .perecluch{
+        width: 80%;
+        overflow: hidden;
+    }
+    .line{
+        width: 400px;
+        display: flex;
+        overflow-x: hidden;
+    }
+    .text{
+        width: calc(100%/3);
+        /*animation: carousel 10s ease-in-out alternate infinite;*/
+        transition: 1s;
+    }
+    
+    #input1:checked ~ .perecluch .text{
+        transition: 1s;
+        transform: translateX(0);
+    }
+    #input2:checked ~ .perecluch .text{
+        transition: 1s;
+        transform: translateX(-100%);
+    }
+    #input3:checked ~ .perecluch .text{
+        transition: 1s;
+        transform: translateX(-200%);
+    }
+        @keyframes carousel {
+        0%,20%{
+            transform: translateX(0);
+        }
+        30%,70%{
+            transform: translateX(-100%);
+        }
+        80%,100%{
+            transform: translateX(-200%);
+        }
+    }
+    .section-tovar p{
+        color: #000000;
+        font-family: "Manrope-m";
+    }
+    .section-tovar .description{
+        font-size: 20px;
+        width: 400px;
+        margin: 20px 0 30px 0;
+    }
+    
+    .section-tovar h1{
+        font-family: "Neutral";
+        font-size: 50px;
+    }
+    .section-tovar .info-tovar{
+        display: flex;
+        gap: 220px;
+        font-family: "Manrope-m";
+    }
+    .section-tovar img{
+        height: 550px;
+        width: 450px;
+    }
+    .section-tovar .info-tovar p{
+       font-size: 15px;
+       margin-left: -0px;
+    }
+    .section-tovar .price{
+        display: flex;
+        align-items:center ;
+        gap: 40px;
+    }
+    .section-tovar .price p{
+    font-size: 35px;
+    font-family: "Neutral";
+    width: 100%;
+    }
+    .section-tovar .price .promo{
+    border:solid 1.5px #8b8b8bad;
+    font-size: 15px;
+    padding: 10px;
+    height: 45px;
+    width: 200px;
+    }
+    
+    .section-tovar select{
+    border:solid 1.5px #8b8b8bad ;
+    font-size: 15px;
+    padding: 10px;
+    height: 45px;
+    width: 430px;    
+    color: #8b8b8bad;
+    margin: 15px 0 50px 0;
+    }
+    .section-tovar select option{
+        color: #000000;
+    }
+    .section-tovar a {
+        font-family: "Manrope-r";
+        color: rgb(255, 255, 255);
+        font-size: 16px;
+        border: 1.5px solid rgb(0, 0, 0);
+        background-color: rgb(0, 0, 0);
+        padding: 15px;
+        width: 430px;
+        height: 55px;
+        margin-top: 30px;
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .section-tovar a:hover {
+        font-family: "Manrope-r";
+        color: rgb(255, 255, 255);
+        font-size: 18px;
+        border: 1.5px solid rgb(0, 0, 0);
+        background-color: rgb(35, 46, 72);
+        padding: 15px;
+        width: 430px;
+        height: 55px;
+        margin-top: 30px;
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .container2 label {
+        width: 100%;
+        justify-content: space-between;
+        font-size: 14px;
+       margin-right: 20px;
+    }
+    .podpiska h2{
+        font-size: 40px; 
+        width: 40%;
+        
+        }
+        .podpiska h3{
+        font-size: 40px;
+        width: 95%;
+        margin-left: -80px;
+        }
+        .podpiska .reg{
+            margin-left: 40px;
+            margin-top: 40px;
+        }
+        .podpiska .name, .number, .email{
+            border: solid 1px #ffffffad;
+            padding: 10px;
+            width: 300px;
+            font-size: 10px;
+        }
+        .podpiska .knopka{
+            color: #ffffff;
+            display: flex;
+            gap: 8px;
+            font-size: 10px;
+        }
+        .podpiska .container{
+            margin-left: -50px;
+        }
+        .podpiska .container  .knopka2 label {
+            color: rgba(240, 240, 240, 0.637);
+            font-size: 10px;
+        }
+        .podpiska .container .knopka2 {
+            margin-bottom: 20px;
+            margin-top: -20px;
+        }
+        .podpiska .container img{
+            width: 500px;
+        }
+        .podpiska .container .butt {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .podpiska .container  .butt button {
+            width: 90%;
+            height:50px;
+            color: rgb(10, 10, 10);
+            font-size: 17px;
+            font-weight: 100;
+            letter-spacing: 1px;
+            transition: .3s;
+        }
+        .podpiska .container .cell p{
+            font-size: 20px;
+        }
+        .podpiska .container  .butt button:hover {
+            transition: .5s;
+            background-color: rgb(21, 38, 57);
+            cursor: pointer;
+        }  
+        footer {
+            background-color: rgb(10, 10, 10);
+            display: flex;
+            justify-content: center;
+            height: 150px;
+        }
+        footer .footer {
+            width: 100%;
+        }
+        footer .footer .container {
+            display: flex;
+            justify-content: space-between;
+            color: rgb(240, 240, 240);
+            align-items: center;
+            height: 150px;
+        }
+        footer .footer .container p {
+            font-size: 13px;
+            margin-left: 100px;
+        }
+        footer .footer .container .icon {
+            display: flex;
+        }
+        footer .footer .container .icon .fa {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid rgb(240, 240, 240);
+            margin-right: 20px;
+            font-size: 15px;
+            width: 30px;
+            height: 30px;
+            cursor: pointer;
+            transition: .3s;
+        }
+        footer .footer .container .icon .fa:hover {
+            transition: .5s;
+            background-color: #fffbfb;
+            
+        }
+        .footer .confid a{
+            font-family: "Manrope-r";
+            text-decoration: underline;
+            color: #ffffff;
+            font-size: 13px;
+            margin-right: 50px;
+        }
+        .about .container .history p{
+            font-size: 18px;
+        }
+        .about{
+            margin-left: -30px;
+        }
+    
+}
+@media (max-width: 850px) {
+    .container {
+        width: 98%;
+    }
+
+    header .container {
+        width: 98%;
+    }
+    .shop  {
+        margin-bottom: 100px;
+        margin-left: 50px;
+        margin-top: -40px;
+    }
+    
+    .shop  .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .shop  .container .mono {
+        width: 75%;
+    }
+    
+    .shop  .container .mono img {
+        width: 520px;
+        height: 250px;
+    }
+    
+    .shop  .container .mono h2 {
+        font-size: 85px;
+        font-weight: 100;
+    }
+    
+    .shop .container .online img {
+        height: 260px;
+        width: 95%;
+        
+        margin-left: -40px;
+    }
+    
+    .shop  .container .online p {
+       
+        font-size: 14px;
+        color: #000000;
+        margin-left: -30px;
+        width: 90%;
+    }
+    
+    .shop  .container .online {
+        height: 100%;
+        width: 25%;
+        margin-bottom: 60px;
+    }
+    
+    .kategories .container .cell img {
+        width: 230px;
+        margin-left: 0px;
+        height: 230px;
+    }
+    .kategories .container .cell p{
+        margin-left: 0px;
+    }
+    .kategories-text .container .mono {
+        margin-left: 30px;
+        font-size: 45px;
+    }
+    .kategories .container {
+        width: 90%;
+        margin-left: 30px;
+    }
+    .collection{
+        background-image: url(../img/6.jpg);
+        background-size: cover; 
+        height: 450px;
+        margin-top: 100px;
+    }
+    .collection .new a {
+        font-family: "Manrope-r";
+        color: rgb(0, 0, 0);
+        font-size: 15px;
+        border: 1.5px solid rgb(255, 255, 255);
+        background-color: rgb(255, 255, 255);
+        padding: 20px;
+        width: 230px;
+        height: 65px;
+        margin-top: 30px;
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .collection .new a:hover {
+        font-family: "Manrope-r";
+        color: rgb(133, 133, 133);
+        font-size: 14px;
+        border: 1.5px solid white;
+        background-color: white;
+        padding: 10px;
+        width: 200px;
+        height: 45px;
+        margin-top: 30px;
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .collection .new {
+        height: 200px;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 15px;
+        position: relative;
+        top: 100px;
+        margin-left: 100px;
+    }
+    .collection p {
+        font-family: "Manrope-r";
+        color: rgb(255, 255, 255);
+        font-weight: 100;
+        font-size: 15px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .collection .new h2{
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        color: rgb(255, 255, 255);
+        font-weight: lighter;
+        
+    
+    }
+    .sezon .container .blue img {
+        width: 230px;
+    }
+
+    .sezon  .container .second .red img {
+        width: 200px;
+    }
+    .sezon  .container {
+        display: flex;
+        gap: 25px;
+        justify-content: center;
+    }
+    .sezon  .container .second .green img {
+        width: 200px;
+    }
+    .sezon .container{
+        margin-left: -10px;
+        margin-top: 50px;
+        width: 100%;
+    }
+    .sezon .title h1{
+        font-size: 35px;
+        margin-left: 80px;
+    }
+    .sezon .title h2{
+        font-size: 35px;
+        margin-left: -100px;
+        margin-top: 10px;
+    }
+    .sezon  .container .pink img {
+        width: 230px;
+    }
+    .section-tovar .container{
+        padding: 70px 60px 60px 60px;
+        display: flex;
+        gap: 100px;
+    }
+    .container2{
+        width: 400px;
+        margin: 0 auto;
+        padding: 30px 0 20px 0;
+    }
+    .container2 .perecluch .line p {
+        font-size: 16px;
+        margin-top: 20px;
+        color: #000000;
+        width: 320px;
+        line-height: 25px;
+    }
+    .section-tovar .container img{
+        height: 350px;
+        width: 350px;
+    }
+    .container2 label {
+        width: 100%;
+        justify-content: space-between;
+        font-size: 18px;
+       margin-right: 70px;
+    }
+    .container2 input{
+        display: none;
+    }
+    #input1:checked ~  #label1,
+    #input2:checked ~  #label2,
+    #input3:checked ~  #label3{
+        text-decoration: underline;
+    }
+    .perecluch{
+        width: 80%;
+        overflow: hidden;
+    }
+    .line{
+        width: 300px;
+        display: flex;
+        overflow-x: hidden;
+        font-size: 10px;
+    }
+    .text{
+        width: calc(100%/3);
+        /*animation: carousel 10s ease-in-out alternate infinite;*/
+        transition: 1s;
+    }
+    
+    #input1:checked ~ .perecluch .text{
+        transition: 1s;
+        transform: translateX(0);
+    }
+    #input2:checked ~ .perecluch .text{
+        transition: 1s;
+        transform: translateX(-100%);
+    }
+    #input3:checked ~ .perecluch .text{
+        transition: 1s;
+        transform: translateX(-200%);
+    }
+        @keyframes carousel {
+        0%,20%{
+            transform: translateX(0);
+        }
+        30%,70%{
+            transform: translateX(-100%);
+        }
+        80%,100%{
+            transform: translateX(-200%);
+        }
+    }
+    .section-tovar p{
+        color: #000000;
+        font-family: "Manrope-m";
+    }
+    .section-tovar .description{
+        font-size: 16px;
+        width: 250px;
+        margin: 20px 0 30px 0;
+    }
+    
+    .section-tovar h1{
+        font-family: "Neutral";
+        font-size: 40px;
+    }
+    .section-tovar .info-tovar{
+        display: flex;
+        gap: 60px;
+        font-family: "Manrope-m";
+        margin-top: -20px;
+    }
+    .section-tovar img{
+        height: 550px;
+        width: 450px;
+    }
+    .section-tovar .info-tovar p{
+       font-size: 13px;
+       margin-left: -0px;
+    }
+    .section-tovar .price{
+        display: flex;
+        align-items:center ;
+        gap: 40px;
+    }
+    .section-tovar .price p{
+    font-size: 25px;
+    font-family: "Neutral";
+    width: 100%;
+    }
+    .section-tovar .price .promo{
+    border:solid 1px #8b8b8bad;
+    font-size: 10px;
+    padding: 10px;
+    height: 40px;
+    width: 180px;
+    margin-left: -300px
+    }
+    
+    .section-tovar select{
+    border:solid 1px #8b8b8bad ;
+    font-size: 12px;
+    padding: 10px;
+    height: 40px;
+    width: 230px;    
+    color: #8b8b8bad;
+    margin: 15px 0 50px 0;
+    }
+    .section-tovar select option{
+        color: #000000;
+    }
+    .section-tovar a {
+        font-family: "Manrope-r";
+        color: rgb(255, 255, 255);
+        font-size: 16px;
+        border: 1.5px solid rgb(0, 0, 0);
+        background-color: rgb(0, 0, 0);
+        padding: 15px;
+        width: 200px;
+        height: 55px;
+        margin-top: 30px;
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .section-tovar a:hover {
+        font-family: "Manrope-r";
+        color: rgb(255, 255, 255);
+        font-size: 18px;
+        border: 1.5px solid rgb(0, 0, 0);
+        background-color: rgb(35, 46, 72);
+        padding: 15px;
+        width: 200px;
+        height: 55px;
+        margin-top: 30px;
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .container2 label {
+        width: 100%;
+        justify-content: space-between;
+        font-size: 14px;
+       margin-right: 20px;
+    } .section-tovar p{
+        color: #000000;
+        font-family: "Manrope-m";
+    }
+    .section-tovar .description{
+        font-size: 17px;
+        width: 300px;
+        margin: 20px 0 30px 0;
+    }
+    
+    .section-tovar h1{
+        font-family: "Neutral";
+        font-size: 40px;
+    }
+    .section-tovar .info-tovar{
+        display: flex;
+        gap: 100px;
+        font-family: "Manrope-m";
+    }
+    .section-tovar .container img{
+        height: 400px;
+        width: 500px;
+    }
+    .section-tovar .info-tovar p{
+       font-size: 15px;
+       margin-left: -0px;
+    }
+    .section-tovar .price{
+        display: flex;
+        align-items:center ;
+        gap: 40px;
+    }
+    .section-tovar .price p{
+    font-size: 25px;
+    font-family: "Neutral";
+    width: 100%;
+    }
+    .section-tovar .price .promo{
+    border:solid 1.5px #8b8b8bad;
+    font-size: 9px;
+    padding: 10px;
+    height: 45px;
+    width: 150px;
+    margin-right: -50px
+    }
+    
+    .section-tovar select{
+    border:solid 1.5px #8b8b8bad ;
+    font-size: 15px;
+    padding: 10px;
+    height: 45px;
+    width: 300px;    
+    color: #8b8b8bad;
+    margin: 15px 0 50px 0;
+    }
+    .section-tovar select option{
+        color: #000000;
+    }
+    .section-tovar a {
+        font-family: "Manrope-r";
+        color: rgb(255, 255, 255);
+        font-size: 16px;
+        border: 1.5px solid rgb(0, 0, 0);
+        background-color: rgb(0, 0, 0);
+        padding: 15px;
+        width: 260px;
+        height: 55px;
+        margin-top: 30px;
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .section-tovar a:hover {
+        font-family: "Manrope-r";
+        color: rgb(255, 255, 255);
+        font-size: 18px;
+        border: 1.5px solid rgb(0, 0, 0);
+        background-color: rgb(35, 46, 72);
+        padding: 15px;
+        width: 330px;
+        height: 55px;
+        margin-top: 30px;
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .container2 label {
+        width: 100%;
+        justify-content: space-between;
+        font-size: 14px;
+       margin-right: 20px;
+    }
+    .podpiska h2{
+        font-size: 35px; 
+        width: 40%;
+        
+        }
+        .podpiska h3{
+        font-size: 35px;
+        width: 95%;
+        margin-left: -180px;
+        }
+        .podpiska .reg{
+            margin-left: 50px;
+            margin-top: 40px;
+        }
+        
+        .podpiska .name, .number, .email{
+            border: solid 1px #ffffffad;
+            padding: 10px;
+            width: 250px;
+            font-size: 10px;
+        }
+        .podpiska .knopka{
+            color: #ffffff;
+            display: flex;
+            gap: 8px;
+            font-size: 10px;
+        }
+        .podpiska .container{
+            margin-left: -50px;
+        }
+        .podpiska .container  .knopka2 label {
+            color: rgba(240, 240, 240, 0.637);
+            font-size: 10px;
+        }
+        .podpiska .container .knopka2 {
+            margin-bottom: 20px;
+            margin-top: -20px;
+        }
+        .podpiska .container img{
+            width: 400px;
+        }
+        .podpiska .container .butt {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .podpiska .container  .butt button {
+            width: 80%;
+            height:40px;
+            color: rgb(10, 10, 10);
+            font-size: 15px;
+            font-weight: 100;
+            letter-spacing: 1px;
+            transition: .3s;
+            margin-left: -40px;
+        }
+        .podpiska .container .cell p{
+            font-size: 17px;
+            width: 100%;
+        }
+        .podpiska .container  .butt button:hover {
+            transition: .5s;
+            background-color: rgb(21, 38, 57);
+            cursor: pointer;
+        }  
+        footer {
+            background-color: rgb(10, 10, 10);
+            display: flex;
+            justify-content: center;
+            height: 150px;
+        }
+        footer .footer {
+            width: 100%;
+        }
+        footer .footer .container {
+            display: flex;
+            justify-content: space-between;
+            color: rgb(240, 240, 240);
+            align-items: center;
+            height: 150px;
+        }
+        footer .footer .container p {
+            font-size: 13px;
+            margin-left: 100px;
+        }
+        footer .footer .container .icon {
+            display: flex;
+        }
+        footer .footer .container .icon .fa {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid rgb(240, 240, 240);
+            margin-right: 20px;
+            font-size: 15px;
+            width: 30px;
+            height: 30px;
+            cursor: pointer;
+            transition: .3s;
+        }
+        footer .footer .container .icon .fa:hover {
+            transition: .5s;
+            background-color: #fffbfb;
+            
+        }
+        .footer .confid a{
+            font-family: "Manrope-r";
+            text-decoration: underline;
+            color: #ffffff;
+            font-size: 13px;
+            margin-right: 50px;
+        }
+        .about .container .history p{
+            font-size: 16px;
+        }
+        .about{
+            margin-left: -80px;
+        }
+        .about h2{
+            font-size: 45px;
+            margin: 15px;
+            display: flex;
+            justify-content: start;
+            font-family: "Neutral";
+        }
+        .about .container img{
+            height: 400px;
+            width: 300px;
+        }
+    
+}
+@media (max-width: 768px) {
+    .container {
+        width: 98%;
+    }
+
+    header .container {
+        width: 98%;
+    }
+    .shop  {
+        margin-bottom: 100px;
+        margin-left: 50px;
+        margin-top: -40px;
+    }
+    
+    .shop  .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .shop  .container .mono {
+        width: 75%;
+    }
+    
+    .shop  .container .mono img {
+        width: 420px;
+        height: 230px;
+    }
+    
+    .shop  .container .mono h2 {
+        font-size: 67px;
+        font-weight: 100;
+    }
+    
+    .shop .container .online img {
+        height: 230px;
+        width: 95%;
+        
+        margin-left: -40px;
+    }
+    
+    .shop  .container .online p {
+       
+        font-size: 12px;
+        color: #000000;
+        margin-left: -30px;
+        width: 80%;
+    }
+    
+    .shop  .container .online {
+        height: 100%;
+        width: 25%;
+        margin-bottom: 70px;
+    }
+    
+    .kategories .container .cell img {
+        width: 170px;
+        margin-left: 0px;
+        height: 170px;
+    }
+    .kategories .container .cell p{
+        font-size: 15px;
+    }
+    .kategories-text .container .mono {
+        margin-left: 30px;
+        font-size: 40px;
+    }
+    .kategories .container {
+        width: 90%;
+        margin-left: 30px;
+    }
+    .collection{
+        background-image: url(../img/6.jpg);
+        background-size: cover; 
+        height: 350px;
+        margin-top: 100px;
+        
+    }
+    .collection .new a {
+        font-family: "Manrope-r";
+        color: rgb(0, 0, 0);
+        font-size: 13px;
+        border: 1.5px solid rgb(255, 255, 255);
+        background-color: rgb(255, 255, 255);
+        padding: 10px;
+        width: 170px;
+        height: 45px;
+        margin-top: 30px;
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+
+    }
+    .collection .new a:hover {
+        font-family: "Manrope-r";
+        color: rgb(133, 133, 133);
+        font-size: 13px;
+        border: 1.5px solid white;
+        background-color: rgb(255, 255, 255);
+        padding: 10px;
+        width: 170px;
+        height: 45px;
+        margin-top: 30px;
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .collection .new {
+        height: 200px;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 15px;
+        position: relative;
+        top: 10px;
+        margin-left: 10px;
+    }
+    .collection p {
+        font-family: "Manrope-r";
+        color: rgb(255, 255, 255);
+        font-weight: 100;
+        font-size: 15px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .collection .new h2{
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        color: rgb(255, 255, 255);
+        font-weight: lighter;
+        
+    
+    }
+    .sezon .container .blue img {
+        width: 200px;
+    }
+
+    .sezon  .container .second .red img {
+        width: 180px;
+    }
+    .sezon  .container {
+        display: flex;
+        gap: 25px;
+        justify-content: center;
+    }
+    .sezon  .container .second .green img {
+        width: 180px;
+    }
+    .sezon .container{
+        margin-left: -10px;
+        margin-top: 50px;
+        width: 100%;
+    }
+    .sezon .title h1{
+        font-size: 30px;
+        margin-left: 80px;
+    }
+    .sezon .title h2{
+        font-size: 30px;
+        margin-left: -140px;
+        margin-top: 10px;
+    }
+    .sezon  .container .pink img {
+        width: 200px;
+    }
+    .section-tovar .container{
+        padding: 70px 60px 60px 60px;
+        display: flex;
+        gap: 100px;
+    }
+    .advantages .container .cell .swag {
+    
+        fill: #ffffff;
+        height: 35px;
+        width: 35px;
+        margin-top: 10px;
+    }
+    .advantages .container .cell .swag2 {
+        
+        fill: #ffffff;
+        height: 50px;
+        width: 50px;
+        margin-top: 18px;
+    }
+    .advantages .cell h3, p{
+        font-family: "Manrope-m";
+        color: rgb(255, 252, 252);
+        margin-top: 7px;
+    }
+    .advantages .cell p{
+        font-size: 15px;   
+    }
+    .container2{
+        width: 300px;
+        margin: 0 auto;
+        padding: 30px 0 20px 0;
+    }
+    .container2 .perecluch .line p {
+        font-size: 16px;
+        margin-top: 20px;
+        color: #000000;
+        width: 320px;
+        line-height: 25px;
+    }
+    .section-tovar .container img{
+        height: 350px;
+        width: 350px;
+    }
+    .container2 label {
+        width: 100%;
+        justify-content: space-between;
+        font-size: 18px;
+       margin-right: 70px;
+    }
+    .container2 input{
+        display: none;
+    }
+    #input1:checked ~  #label1,
+    #input2:checked ~  #label2,
+    #input3:checked ~  #label3{
+        text-decoration: underline;
+    }
+    .perecluch{
+        width: 80%;
+        overflow: hidden;
+    }
+    .half .container2 .line p{
+        width: 240px;
+        display: flex;
+        overflow-x: hidden;
+        font-size: 13px;
+    }
+    
+    .text{
+        width: calc(100%/3);
+        /*animation: carousel 10s ease-in-out alternate infinite;*/
+        transition: 1s;
+    }
+    
+    #input1:checked ~ .perecluch .text{
+        transition: 1s;
+        transform: translateX(0);
+    }
+    #input2:checked ~ .perecluch .text{
+        transition: 1s;
+        transform: translateX(-100%);
+    }
+    #input3:checked ~ .perecluch .text{
+        transition: 1s;
+        transform: translateX(-200%);
+    }
+        @keyframes carousel {
+        0%,20%{
+            transform: translateX(0);
+        }
+        30%,70%{
+            transform: translateX(-100%);
+        }
+        80%,100%{
+            transform: translateX(-200%);
+        }
+    }
+    .section-tovar p{
+        color: #000000;
+        font-family: "Manrope-m";
+    }
+    .section-tovar .half .description{
+        font-size: 13px;
+        width: 200px;
+        margin: 20px 0 30px 0;
+    }
+    
+    .section-tovar .half h1{
+        font-family: "Neutral";
+        font-size: 30px;
+    }
+    .section-tovar .info-tovar{
+        display: flex;
+        gap: 60px;
+        font-family: "Manrope-m";
+        margin-top: -20px;
+    }
+    .section-tovar img{
+        height: 550px;
+        width: 450px;
+    }
+    .section-tovar .info-tovar p{
+       font-size: 13px;
+       margin-left: -0px;
+    }
+    .section-tovar .price{
+        display: flex;
+        align-items:center ;
+        gap: 40px;
+    }
+    .section-tovar .half .price p{
+    font-size: 18px;
+    font-family: "Neutral";
+    width: 100%;
+    }
+    .section-tovar .half .price .promo{
+    border:solid 1px #8b8b8bad;
+    font-size: 10px;
+    padding: 10px;
+    height: 40px;
+    width: 130px;
+    margin-left: -240px
+    }
+    
+    .section-tovar select{
+    border:solid 1px #8b8b8bad ;
+    font-size: 12px;
+    padding: 10px;
+    height: 40px;
+    width: 30px;    
+    color: #8b8b8bad;
+    margin: 15px 0 50px 0;
+    }
+    .section-tovar select option{
+        color: #000000;
+    }
+    .section-tovar a {
+        font-family: "Manrope-r";
+        color: rgb(255, 255, 255);
+        font-size: 16px;
+        border: 1.5px solid rgb(0, 0, 0);
+        background-color: rgb(0, 0, 0);
+        padding: 15px;
+        width: 200px;
+        height: 55px;
+        margin-top: 30px;
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .section-tovar a:hover {
+        font-family: "Manrope-r";
+        color: rgb(255, 255, 255);
+        font-size: 18px;
+        border: 1.5px solid rgb(0, 0, 0);
+        background-color: rgb(35, 46, 72);
+        padding: 15px;
+        width: 200px;
+        height: 55px;
+        margin-top: 30px;
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+     .half .container2 label {
+        width: 100%;
+        justify-content: space-between;
+        font-size: 10px;
+       margin-right: 20px;
+    } .section-tovar p{
+        color: #000000;
+        font-family: "Manrope-m";
+    }
+    .section-tovar .description{
+        font-size: 16px;
+        width: 200px;
+        margin: 20px 0 30px 0;
+    }
+    
+    .section-tovar h1{
+        font-family: "Neutral";
+        font-size: 40px;
+    }
+    .section-tovar .info-tovar{
+        display: flex;
+        gap: 60px;
+        font-family: "Manrope-m";
+    }
+    .section-tovar .container img{
+        height: 400px;
+        width: 500px;
+    }
+    .section-tovar .info-tovar p{
+       font-size: 13px;
+       margin-left: -0px;
+    }
+    .section-tovar .price{
+        display: flex;
+        align-items:center ;
+        gap: 40px;
+    }
+    .section-tovar .price p{
+    font-size: 25px;
+    font-family: "Neutral";
+    width: 100%;
+    }
+    .section-tovar .price .promo{
+    border:solid 1.5px #8b8b8bad;
+    font-size: 9px;
+    padding: 10px;
+    height: 45px;
+    width: 150px;
+    margin-right: -50px
+    }
+    
+    .section-tovar select{
+    border:solid 1.5px #8b8b8bad ;
+    font-size: 15px;
+    padding: 10px;
+    height: 45px;
+    width: 230px;    
+    color: #8b8b8bad;
+    margin: 15px 0 50px 0;
+    }
+    .section-tovar select option{
+        color: #000000;
+    }
+    .section-tovar a {
+        font-family: "Manrope-r";
+        color: rgb(255, 255, 255);
+        font-size: 16px;
+        border: 1.5px solid rgb(0, 0, 0);
+        background-color: rgb(0, 0, 0);
+        padding: 15px;
+        width: 230px;
+        height: 55px;
+        margin-top: 30px;
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .section-tovar a:hover {
+        font-family: "Manrope-r";
+        color: rgb(255, 255, 255);
+        font-size: 18px;
+        border: 1.5px solid rgb(0, 0, 0);
+        background-color: rgb(35, 46, 72);
+        padding: 15px;
+        width: 230px;
+        height: 55px;
+        margin-top: 30px;
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .container2 label {
+        width: 100%;
+        justify-content: space-between;
+        font-size: 14px;
+       margin-right: 20px;
+    }
+    .podpiska h2{
+        font-size: 35px; 
+        width: 40%;
+        
+        }
+        .podpiska h3{
+        font-size: 30px;
+        width: 95%;
+        margin-left: -180px;
+        }
+        .podpiska .reg{
+            margin-left: 80px;
+            margin-top: 40px;
+        }
+        
+        .podpiska .name, .number, .email{
+            border: solid 1px #ffffffad;
+            padding: 10px;
+            width: 200px;
+            font-size: 10px;
+        }
+        .podpiska .knopka{
+            color: #ffffff;
+            display: flex;
+            gap: 8px;
+            font-size: 10px;
+        }
+        .podpiska .container{
+            margin-left: -50px;
+        }
+        .podpiska .container  .knopka2 label {
+            color: rgba(240, 240, 240, 0.637);
+            font-size: 10px;
+        }
+        .podpiska .container .knopka2 {
+            margin-bottom: 20px;
+            margin-top: -20px;
+        }
+        .podpiska .container img{
+            width: 300px;
+        }
+        .podpiska .container .butt {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .podpiska .container  .butt button {
+            width: 70%;
+            height:40px;
+            color: rgb(10, 10, 10);
+            font-size: 15px;
+            font-weight: 100;
+            letter-spacing: 1px;
+            transition: .3s;
+            margin-left: -80px;
+        }
+        .podpiska .container .cell p{
+            font-size: 17px;
+            width: 100%;
+        }
+        .podpiska .container  .butt button:hover {
+            transition: .5s;
+            background-color: rgb(21, 38, 57);
+            cursor: pointer;
+        }  
+        footer {
+            background-color: rgb(10, 10, 10);
+            display: flex;
+            justify-content: center;
+            height: 150px;
+        }
+        footer .footer {
+            width: 100%;
+        }
+        footer .footer .container {
+            display: flex;
+            justify-content: space-between;
+            color: rgb(240, 240, 240);
+            align-items: center;
+            height: 150px;
+        }
+        footer .footer .container p {
+            font-size: 13px;
+            margin-left: 30px;
+        }
+        footer .footer .container .icon {
+            display: flex;
+        }
+        footer .footer .container .icon .fa {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid rgb(240, 240, 240);
+            margin-right: 20px;
+            font-size: 15px;
+            width: 30px;
+            height: 30px;
+            cursor: pointer;
+            transition: .3s;
+        }
+        footer .footer .container .icon .fa:hover {
+            transition: .5s;
+            background-color: #fffbfb;
+            
+        }
+        .footer .confid a{
+            font-family: "Manrope-r";
+            text-decoration: underline;
+            color: #ffffff;
+            font-size: 10px;
+            margin-right: 60px;
+        }
+        .about .container .history p{
+            font-size: 14px;
+        }
+        .about{
+            margin-left: -100px;
+        }
+        .about h2{
+            font-size: 45px;
+            margin: 15px;
+            display: flex;
+            justify-content: start;
+            font-family: "Neutral";
+        }
+        .about .container img{
+            height: 380px;
+            width: 300px;
+        }
+    
+}
+@media (max-width: 480px) {
+    .container {
+        width: 98%;
+    }
+
+    header .container {
+        width: 98%;
+    }
+    .shop  {
+        margin-bottom: 100px;
+        margin-left: -40px;
+        margin-top: -40px;
+    }
+    header .container {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+        align-items: center;
+        margin-top: 20px;
+    }
+     .container .hrefs img{
+        width: 40px;
+    }
+     .container a{
+        color: black;
+    }
+     .container .world{
+        text-decoration: none;
+        color: black;
+    }
+     .container .hrefs{
+        display: flex;
+        gap: 1px;
+    }
+     .container .logo{
+        text-transform: uppercase;
+        font-size: 20px;
+        color: black;
+        transition: .3s;
+    }
+    .shop  .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .shop  .container .mono {
+        width: 75%;
+    }
+    
+    .shop  .container .mono img {
+        width: 420px;
+        height: 230px;
+    }
+    
+    .shop  .container .mono h2 {
+        font-size: 67px;
+        font-weight: 100;
+    }
+    
+    .shop .container .online img {
+        height: 350px;
+        width: 230px;
+        
+        margin-left: -40px;
+    }
+    
+    .shop  .container .online p {
+       
+        font-size: 16px;
+        color: #000000;
+        margin-left: -40px;
+        width: 200%;
+    }
+    
+    .shop  .container .online {
+        height: 100%;
+        width: 25%;
+        margin-bottom: 0px;
+        margin-top: 30px;
+    }
+    .people .container {
+        width: 80%;
+        display: flex;
+        gap: 20px;
+        font-size: 15px;
+        justify-content: center;
+        flex-direction: column;
+        margin-bottom: -5px;
+    }
+    
+    .people .container a {
+        font-size: 16px;
+        transition: .3s;
+        
+    }
+    .people {
+        width: 100%;
+        border-top: 1px solid rgb(88, 88, 88);
+        border-bottom: 1px solid rgb(88, 88, 88);
+        display: flex;
+        justify-content: center;
+        height: 180px;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+    
+    .people .container {
+        width: 80%;
+        display: flex;
+        gap: 4px;
+        font-size: 15px;
+        justify-content: center;
+        margin-left: 150px;
+    }
+    .kategories .container .cell img {
+        width: 250px;
+        margin-left: 0px;
+        height: 250px;
+        
+    }
+    .kategories .container{
+        flex-direction: column;
+    }
+    .kategories .container .cell p{
+        font-size: 15px;
+    }
+    .kategories-text .container .mono {
+        margin-left: 60px;
+        font-size: 30px;
+    }
+    .kategories .container {
+        width: 90%;
+        margin-left: 30px;
+    }
+    .collection{
+        background-image: url(../img/6.jpg);
+        background-size: cover; 
+        height: 250px;
+        margin-top: 100px;
+        
+    }
+    .collection .new a {
+        font-family: "Manrope-r";
+        color: rgb(0, 0, 0);
+        font-size: 10px;
+        border: 1.5px solid rgb(255, 255, 255);
+        background-color: rgb(255, 255, 255);
+        padding: 10px;
+        width: 120px;
+        height: 40px;
+        margin-top: 30px;
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+
+    }
+    .collection .new a:hover {
+        font-family: "Manrope-r";
+        color: rgb(133, 133, 133);
+        font-size: 10px;
+        border: 1.5px solid white;
+        background-color: rgb(255, 255, 255);
+        padding: 10px;
+        width: 120px;
+        height: 40px;
+        margin-top: 30px;
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .collection .new {
+        height: 200px;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 15px;
+        position: relative;
+        top: 10px;
+        margin-left: 10px;
+    }
+    .collection p {
+        font-family: "Manrope-r";
+        color: rgb(255, 255, 255);
+        font-weight: 100;
+        font-size: 10px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .collection .new h2{
+        font-size: 18px;
+        display: flex;
+        justify-content: center;
+        color: rgb(255, 255, 255);
+        font-weight: lighter;
+        
+    
+    }
+    .sezon .container{
+        flex-direction: column;
+    }
+    .sezon .container .blue img {
+        width: 300px;
+    }
+
+    .sezon  .container .second .red img {
+        width: 350px;
+    }
+    .sezon  .container {
+        display: flex;
+        gap: 25px;
+        justify-content: center;
+    }
+    .sezon  .container .second .green img {
+        width: 350px;
+    }
+    .sezon .container{
+        margin-left: -10px;
+        margin-top: 50px;
+        width: 100%;
+    }
+    .sezon .title h1{
+        font-size: 20px;
+        margin-left: 80px;
+    }
+    .sezon .title h2{
+        font-size: 20px;
+        margin-left: -340px;
+        margin-top: 10px;
+    }
+    .sezon  .container .pink img {
+        width: 300px;
+    }
+    .section-tovar .container{
+        flex-direction: column;
+    }
+    .advantages .container{
+        flex-direction: column;
+        margin-left: 120px;
+        width: 100px;
+    }
+    .advantages .container .cell .swag {
+    
+        fill: #ffffff;
+        height: 30px;
+        width: 30px;
+        margin-top: 10px;
+    }
+    .advantages .container .cell .swag2 {
+        
+        fill: #ffffff;
+        height: 40px;
+        width: 40px;
+        margin-top: 18px;
+    }
+    .advantages{
+        background-color: black; 
+        height: 750px;
+        
+    }
+    .advantages .cell h3, p{
+        font-family: "Manrope-m";
+        color: rgb(255, 252, 252);
+        margin-top: 7px;
+    }
+    .advantages .cell p{
+        font-size: 15px;   
+    }
+    .container2{
+        width: 300px;
+        margin: 0 auto;
+        padding: 30px 0 20px 0;
+    }
+    .container2 .perecluch .line p {
+        font-size: 16px;
+        margin-top: 20px;
+        color: #000000;
+        width: 320px;
+        line-height: 25px;
+    }
+    .section-tovar .container .half{
+        margin-left: 10px;
+    }
+    .container2 label {
+        width: 100%;
+        justify-content: space-between;
+        font-size: 18px;
+       margin-right: 70px;
+    }
+    .container2 input{
+        display: none;
+    }
+    #input1:checked ~  #label1,
+    #input2:checked ~  #label2,
+    #input3:checked ~  #label3{
+        text-decoration: underline;
+    }
+    .perecluch{
+        width: 80%;
+        overflow: hidden;
+    }
+    .half .container2 .line p{
+        width: 240px;
+        display: flex;
+        overflow-x: hidden;
+        font-size: 15px;
+    }
+    
+    .text{
+        width: calc(100%/3);
+        /*animation: carousel 10s ease-in-out alternate infinite;*/
+        transition: 1s;
+    }
+    
+    #input1:checked ~ .perecluch .text{
+        transition: 1s;
+        transform: translateX(0);
+    }
+    #input2:checked ~ .perecluch .text{
+        transition: 1s;
+        transform: translateX(-100%);
+    }
+    #input3:checked ~ .perecluch .text{
+        transition: 1s;
+        transform: translateX(-200%);
+    }
+        @keyframes carousel {
+        0%,20%{
+            transform: translateX(0);
+        }
+        30%,70%{
+            transform: translateX(-100%);
+        }
+        80%,100%{
+            transform: translateX(-200%);
+        }
+    }
+    .section-tovar p{
+        color: #000000;
+        font-family: "Manrope-m";
+    }
+    .section-tovar .half .description{
+        font-size: 13px;
+        width: 200px;
+        margin: 20px 0 30px 0;
+    }
+    
+    .section-tovar .half h1{
+        font-family: "Neutral";
+        font-size: 50px;
+    }
+    .section-tovar .info-tovar{
+        display: flex;
+        gap: 60px;
+        font-family: "Manrope-m";
+        margin-top: -20px;
+    }
+    .section-tovar .container img{
+        height: 350px;
+        width: 350px;
+    }
+    .section-tovar .info-tovar p{
+       font-size: 13px;
+       margin-left: -0px;
+    }
+    .section-tovar .price{
+        display: flex;
+        align-items:center ;
+        gap: 40px;
+    }
+    .section-tovar .half .price p{
+    font-size: 18px;
+    font-family: "Neutral";
+    width: 100%;
+    }
+    .section-tovar .half .price .promo{
+    border:solid 1px #8b8b8bad;
+    font-size: 10px;
+    padding: 10px;
+    height: 40px;
+    width: 130px;
+    margin-left: -240px
+    }
+    
+    .section-tovar select{
+    border:solid 1px #8b8b8bad ;
+    font-size: 12px;
+    padding: 10px;
+    height: 40px;
+    width: 30px;    
+    color: #8b8b8bad;
+    margin: 15px 0 50px 0;
+    }
+    .section-tovar select option{
+        color: #000000;
+    }
+    
+     .half .container2 label {
+        width: 100%;
+        justify-content: space-between;
+        font-size: 10px;
+       margin-right: 20px;
+    } .section-tovar p{
+        color: #000000;
+        font-family: "Manrope-m";
+    }
+    .section-tovar .container  .description{
+        font-size: 20px;
+        width: 350px;
+        margin: 20px 0 30px 0;
+    }
+    
+    .section-tovar h1{
+        font-family: "Neutral";
+        font-size: 40px;
+    }
+    .section-tovar .container .info-tovar{
+        display: flex;
+        gap: 120px;
+        font-family: "Manrope-m";
+    }
+
+    .section-tovar .info-tovar p{
+       font-size: 13px;
+       margin-left: 40px;
+    }
+    .section-tovar .container .half a{
+        font-size: 15px;
+    }
+       .section-tovar .price{
+        display: flex;
+        align-items:center ;
+        gap: 40px;
+    }
+    .section-tovar .container .price p{
+    font-size: 30px;
+    font-family: "Neutral";
+    width: 100%;
+    }
+    .section-tovar .container .price .promo{
+    border:solid 1.5px #8b8b8bad;
+    font-size: 9px;
+    padding: 10px;
+    height: 45px;
+    width: 150px;
+    margin-left: 30px;
+    }
+    
+    .section-tovar select{
+    border:solid 1.5px #8b8b8bad ;
+    font-size: 15px;
+    padding: 10px;
+    height: 45px;
+    width: 300px;    
+    color: #8b8b8bad;
+    margin: 15px 0 50px 0;
+    }
+    .section-tovar select option{
+        color: #000000;
+    }
+    .section-tovar .container a {
+        font-family: "Manrope-r";
+        color: rgb(255, 255, 255);
+        font-size: 16px;
+        border: 1.5px solid rgb(0, 0, 0);
+        background-color: rgb(0, 0, 0);
+        padding: 15px;
+        width: 250px;
+        height: 55px;
+        margin-top: 30px;
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .section-tovar .container  a:hover {
+        font-family: "Manrope-r";
+        color: rgb(255, 255, 255);
+        font-size: 18px;
+        border: 1.5px solid rgb(0, 0, 0);
+        background-color: rgb(35, 46, 72);
+        padding: 15px;
+        width: 250px;
+        height: 55px;
+        margin-top: 30px;
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .section-tovar .container2 label {
+        width: 100%;
+        justify-content: space-between;
+        font-size: 15px;
+       margin-right: 10px;
+    }
+    .podpiska .container{
+        flex-direction: column;
+    }
+    .podpiska h2{
+        font-size: 20px; 
+        width: 40%;
+        margin-left: -100px;
+        
+        }
+        .podpiska h3{
+        font-size: 20px;
+        width: 95%;
+        margin-left: -380px;
+        }
+        .podpiska .reg{
+            margin-left: 80px;
+            margin-top: 40px;
+        }
+        .podpiska .container .cell{
+            margin-left: 100px;
+        }
+        .podpiska .name, .number, .email{
+            border: solid 1px #ffffffad;
+            padding: 10px;
+            width: 300px;
+            font-size: 10px;
+            margin-left: -60px;
+        }
+        .podpiska .knopka{
+            color: #ffffff;
+            display: flex;
+            gap: 8px;
+            font-size: 10px;
+        }
+        .podpiska .container .reg p{
+            margin-left: -60px;
+        }
+        .podpiska .container{
+            margin-left: -50px;
+        }
+        .podpiska .container  .knopka2 label {
+            color: rgba(240, 240, 240, 0.637);
+            font-size: 10px;
+            
+        }
+        .podpiska .container .knopka2 {
+            margin-bottom: 20px;
+            margin-top: -20px;
+            margin-left: -60px;
+        }
+        .podpiska .container  .knopka{
+            margin-left: -60px;
+        }
+        .podpiska .container img{
+            width: 350px;
+        }
+        .podpiska .container .butt {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .podpiska .container  .butt button {
+            width: 130%;
+            height:40px;
+            color: rgb(10, 10, 10);
+            font-size: 15px;
+            font-weight: 100;
+            letter-spacing: 1px;
+            transition: .3s;
+            margin-left: -50px;
+        }
+        .podpiska .container .cell p{
+            font-size: 13px;
+            width: 350px;
+        }
+        .podpiska .container  .butt button:hover {
+            transition: .5s;
+            background-color: rgb(21, 38, 57);
+            cursor: pointer;
+        }  
+        footer {
+            background-color: rgb(10, 10, 10);
+            display: flex;
+            justify-content: center;
+            height: 150px;
+        }
+        footer .footer {
+            width: 100%;
+        }
+        .footer .container{
+            flex-direction: column;
+        }
+        footer .footer .container {
+            display: flex;
+            justify-content: space-between;
+            color: rgb(240, 240, 240);
+            align-items: center;
+            height: 150px;
+        }
+        footer .footer .container p {
+            font-size: 13px;
+            margin-left: 30px;
+        }
+        footer .footer .container .icon {
+            display: flex;
+        }
+        footer .footer .container .icon .fa {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid rgb(240, 240, 240);
+            margin-right: 20px;
+            font-size: 15px;
+            width: 30px;
+            height: 30px;
+            cursor: pointer;
+            transition: .3s;
+        }
+        footer .footer .container .icon .fa:hover {
+            transition: .5s;
+            background-color: #fffbfb;
+            
+        }
+        footer {
+            background-color: rgb(10, 10, 10);
+            display: flex;
+            justify-content: center;
+            height: 170px;
+        }
+        
+        .footer .confid a{
+            font-family: "Manrope-r";
+            text-decoration: underline;
+            color: #ffffff;
+            font-size: 10px;
+            margin-right: 60px;
+        }
+        .about .container .history p{
+            font-size: 14px;
+        }
+        .about .container .history{
+            margin-left: 200px;
+            margin-top: -80px;
+        }
+        
+        .about h2{
+            font-size: 45px;
+            margin: 15px;
+            display: flex;
+            justify-content: start;
+            font-family: "Neutral";
+        }
+        .about .container img{
+            height: 430px;
+            width: 300px;
+            margin-left: 150px;
+        }
+        .about .container{
+            flex-direction: column;
+        } 
+}
+@media (max-width: 320px) {
+    .container {
+        width: 98%;
+    }
+
+    header .container {
+        width: 98%;
+        
+    }
+    .shop  {
+        margin-bottom: 100px;
+        margin-left: -40px;
+        margin-top: -40px;
+    }
+    header .container {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+        align-items: center;
+        margin-top: 20px;
+    }
+     .container .hrefs img{
+        width: 40px;
+    }
+    .container .hrefs{
+        flex-direction: column;
+    }
+     .container a{
+        color: black;
+    }
+     .container .world{
+        text-decoration: none;
+        color: black;
+    }
+     .container .hrefs{
+        display: flex;
+        gap: 1px;
+    }
+     .container .logo{
+        text-transform: uppercase;
+        font-size: 20px;
+        color: black;
+        transition: .3s;
+    }
+    .shop  .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .shop  .container .mono {
+        width: 75%;
+        margin-left: 50px;
+    }
+    
+    .shop  .container .mono img {
+        width: 250px;
+        height: 130px;
+    }
+    
+    .shop  .container .mono h2 {
+        font-size: 40px;
+        font-weight: 100;
+    }
+    
+    .shop .container .online img {
+        height: 250px;
+        width: 180px;
+        
+        margin-left: -30px;
+    }
+    
+    .shop  .container .online p {
+       
+        font-size: 12px;
+        color: #000000;
+        margin-left: -30px;
+        width: 200%;
+    }
+    
+    .shop  .container .online {
+        height: 100%;
+        width: 25%;
+        margin-bottom: 0px;
+        margin-top: 30px;
+    }
+    .people .container {
+        width: 80%;
+        display: flex;
+        gap: 20px;
+        font-size: 15px;
+        justify-content: center;
+        flex-direction: column;
+        margin-bottom: -5px;
+    }
+    
+    .people .container a {
+        font-size: 16px;
+        transition: .3s;
+        
+    }
+    .people {
+        width: 100%;
+        border-top: 1px solid rgb(88, 88, 88);
+        border-bottom: 1px solid rgb(88, 88, 88);
+        display: flex;
+        justify-content: center;
+        height: 180px;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+    
+    .people .container {
+        width: 80%;
+        display: flex;
+        gap: 4px;
+        font-size: 15px;
+        justify-content: center;
+        margin-left: 100px;
+    }
+    .kategories .container .cell img {
+        width: 200px;
+        margin-left: -40px;
+        height: 200px;
+        
+    }
+    .kategories .container{
+        flex-direction: column;
+    }
+    .kategories .container .cell p{
+        font-size: 15px;
+        margin-left: -40px;
+        margin-top: 10px;
+    }
+    .kategories-text .container .mono {
+        margin-left: 30px;
+        font-size: 20px;
+    }
+    .kategories .container {
+        width: 90%;
+        margin-left: 30px;
+    }
+    .collection{
+        background-image: url(../img/6.jpg);
+        background-size: cover; 
+        height: 150px;
+        margin-top: 100px;
+        
+    }
+    .collection .new a {
+        font-family: "Manrope-r";
+        color: rgb(0, 0, 0);
+        font-size: 8px;
+        border: 1.5px solid rgb(255, 255, 255);
+        background-color: rgb(255, 255, 255);
+        padding: 4px;
+        width: 90px;
+        height: 20px;
+        margin-top: 10px;
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+
+    }
+    .collection .new a:hover {
+        font-family: "Manrope-r";
+        color: rgb(133, 133, 133);
+        font-size: 8px;
+        border: 1.5px solid white;
+        background-color: rgb(255, 255, 255);
+        padding: 4px;
+        width: 90px;
+        height: 20px;
+        margin-top: 10px;
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .collection .new {
+        height: 200px;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 15px;
+        position: relative;
+        top: -40px;
+        margin-left: 10px;
+    }
+    .collection p {
+        font-family: "Manrope-r";
+        color: rgb(255, 255, 255);
+        font-weight: 100;
+        font-size: 7px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .collection .new h2{
+        font-size: 12px;
+        display: flex;
+        justify-content: center;
+        color: rgb(255, 255, 255);
+        font-weight: lighter;
+        
+    
+    }
+    .sezon .container{
+        flex-direction: column;
+    }
+    .sezon .container .blue img {
+        width: 230px;
+    }
+
+    .sezon  .container .second .red img {
+        width: 200px;
+    }
+    .sezon  .container {
+        display: flex;
+        gap: 25px;
+        justify-content: center;
+    }
+    .sezon  .container .second .green img {
+        width: 200px;
+    }
+    .sezon .container{
+        margin-left: -10px;
+        margin-top: 50px;
+        width: 100%;
+    }
+    .sezon .title h1{
+        font-size: 16px;
+        margin-left: 40px;
+    }
+    .sezon .title h2{
+        font-size: 16px;
+        margin-left: -420px;
+        margin-top: 10px;
+    }
+    .sezon  .container .pink img {
+        width: 230px;
+    }
+    .section-tovar .container{
+        flex-direction: column;
+    }
+    .advantages .container{
+        flex-direction: column;
+        margin-left: 50px;
+        width: 100px;
+    }
+    .advantages .container .cell .swag {
+    
+        fill: #ffffff;
+        height: 20px;
+        width: 20px;
+        margin-top: 10px;
+    }
+    .advantages .container .cell .swag2 {
+        
+        fill: #ffffff;
+        height: 30px;
+        width: 30px;
+        margin-top: 18px;
+    }
+    .advantages{
+        background-color: black; 
+        height: 750px;
+        
+    }
+    .advantages .cell h3, p{
+        font-family: "Manrope-m";
+        color: rgb(255, 252, 252);
+        margin-top: 7px;
+    }
+    .advantages .cell p{
+        font-size: 15px;   
+    }
+    .container2{
+        width: 300px;
+        margin: 0 auto;
+        padding: 30px 0 20px 0;
+    }
+    .container2 .perecluch .line p {
+        font-size: 16px;
+        margin-top: 20px;
+        color: #000000;
+        width: 320px;
+        line-height: 25px;
+    }
+    .section-tovar .container .half{
+        margin-left: -30px;
+        margin-top: -60px;
+    }
+    .container2 label {
+        width: 100%;
+        justify-content: space-between;
+        font-size: 18px;
+       margin-right: 70px;
+    }
+    .container2 input{
+        display: none;
+    }
+    #input1:checked ~  #label1,
+    #input2:checked ~  #label2,
+    #input3:checked ~  #label3{
+        text-decoration: underline;
+    }
+    .perecluch{
+        width: 80%;
+        overflow: hidden;
+    }
+    .half .container2 .line p{
+        width: 240px;
+        display: flex;
+        overflow-x: hidden;
+        font-size: 12px;
+    }
+    
+    .text{
+        width: calc(100%/3);
+        
+        transition: 1s;
+    }
+    
+    #input1:checked ~ .perecluch .text{
+        transition: 1s;
+        transform: translateX(0);
+    }
+    #input2:checked ~ .perecluch .text{
+        transition: 1s;
+        transform: translateX(-100%);
+    }
+    #input3:checked ~ .perecluch .text{
+        transition: 1s;
+        transform: translateX(-200%);
+    }
+        @keyframes carousel {
+        0%,20%{
+            transform: translateX(0);
+        }
+        30%,70%{
+            transform: translateX(-100%);
+        }
+        80%,100%{
+            transform: translateX(-200%);
+        }
+    }
+    .section-tovar p{
+        color: #000000;
+        font-family: "Manrope-m";
+    }
+    .section-tovar .half .description{
+        font-size: 12px;
+        width: 200px;
+        margin: 20px 0 30px 0;
+    }
+    
+    .section-tovar .half h1{
+        font-family: "Neutral";
+        font-size: 25px;
+    }
+    .section-tovar .info-tovar{
+        display: flex;
+        gap: 60px;
+        font-family: "Manrope-m";
+        margin-top: -20px;
+    }
+    .section-tovar .container img{
+        height: 250px;
+        width: 250px;
+        margin-left: -30px;
+    }
+    .section-tovar .info-tovar p{
+       font-size: 13px;
+       margin-left: -0px;
+    }
+    .section-tovar .price{
+        display: flex;
+        align-items:center ;
+        gap: 40px;
+    }
+    .section-tovar .half .price p{
+    font-size: 20px;
+    font-family: "Neutral";
+    width: 100%;
+    height: 100;
+    }
+    .section-tovar .half .price .promo{
+    border:solid 1px #8b8b8bad;
+    font-size: 10px;
+    padding: 10px;
+    height: 40px;
+    width: 130px;
+    margin-left: 30px;
+    }
+    
+    .section-tovar select{
+    border:solid 1px #8b8b8bad ;
+    font-size: 12px;
+    padding: 10px;
+    height: 40px;
+    width: 250px;    
+    color: #8b8b8bad;
+    margin: 15px 0 50px 0;
+    }
+    .section-tovar select option{
+        color: #000000;
+    
+    } .section-tovar p{
+        color: #000000;
+        font-family: "Manrope-m";
+    }
+
+    .section-tovar .container .info-tovar{
+        display: flex;
+        gap: 150px;
+        font-family: "Manrope-m";
+    }
+
+    .section-tovar .info-tovar p{
+       font-size: 11px;
+       margin-left: 0px;
+    }
+    .section-tovar .container .half a{
+        font-size: 15px;
+    }
+       .section-tovar .price{
+        display: flex;
+        align-items:center ;
+        gap: 40px;
+    }
+    
+    .section-tovar select option{
+        color: #000000;
+    }
+    .section-tovar .container a {
+        font-family: "Manrope-r";
+        color: rgb(255, 255, 255);
+        font-size: 16px;
+        border: 1.5px solid rgb(0, 0, 0);
+        background-color: rgb(0, 0, 0);
+        padding: 15px;
+        width: 250px;
+        height: 55px;
+        margin-top: 30px;
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .section-tovar .container  a:hover {
+        font-family: "Manrope-r";
+        color: rgb(255, 255, 255);
+        font-size: 18px;
+        border: 1.5px solid rgb(0, 0, 0);
+        background-color: rgb(35, 46, 72);
+        padding: 15px;
+        width: 250px;
+        height: 55px;
+        margin-top: 30px;
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .section-tovar .container2 label {
+        width: 100%;
+        justify-content: space-between;
+        font-size: 12px;
+       margin-right: 10px;
+    }
+    .podpiska .container{
+        flex-direction: column;
+    }
+    .podpiska h2{
+        font-size: 13px; 
+        width: 40%;
+        margin-left: -100px;
+        
+        }
+        .podpiska h3{
+        font-size: 13px;
+        width: 95%;
+        margin-left: -420px;
+        }
+        .podpiska .reg{
+            margin-left: 80px;
+            margin-top: 40px;
+        }
+        .podpiska .container .cell{
+            margin-left: 100px;
+        }
+        .podpiska .name, .number, .email{
+            border: solid 1px #ffffffad;
+            padding: 10px;
+            width: 240px;
+            font-size: 10px;
+            margin-left: -60px;
+        }
+        .podpiska .knopka{
+            color: #ffffff;
+            display: flex;
+            gap: 8px;
+            font-size: 10px;
+        }
+        .podpiska .container .reg p{
+            margin-left: -60px;
+            font-size: 11px;
+        }
+        .podpiska .container{
+            margin-left: -50px;
+        }
+        .podpiska .container .knopka label{
+            font-size: 8px;
+        }
+        .podpiska .container  .knopka2 label {
+            color: rgba(240, 240, 240, 0.637);
+            font-size: 10px;
+            
+        }
+        .podpiska .container .knopka2 {
+            margin-bottom: 20px;
+            margin-top: -20px;
+            margin-left: -60px;
+        }
+        .podpiska .container  .knopka{
+            margin-left: -60px;
+            
+        }
+        .podpiska .container img{
+            width: 250px;
+            margin-left: 10px;
+        }
+        .podpiska .container .butt {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .podpiska .container  .butt button {
+            width: 130%;
+            height:40px;
+            color: rgb(10, 10, 10);
+            font-size: 15px;
+            font-weight: 100;
+            letter-spacing: 1px;
+            transition: .3s;
+            margin-left: -50px;
+        }
+        .podpiska .container .cell p{
+            font-size: 10px;
+            width: 250px;
+            margin-left: 10px;
+        }
+        .podpiska .container  .butt button:hover {
+            transition: .5s;
+            background-color: rgb(21, 38, 57);
+            cursor: pointer;
+        }  
+        footer {
+            background-color: rgb(10, 10, 10);
+            display: flex;
+            justify-content: center;
+            height: 150px;
+        }
+        footer .footer {
+            width: 100%;
+        }
+        .footer .container{
+            flex-direction: column;
+        }
+        footer .footer .container {
+            display: flex;
+            justify-content: space-between;
+            color: rgb(240, 240, 240);
+            align-items: center;
+            height: 150px;
+        }
+        footer .footer .container p {
+            font-size: 10px;
+            margin-left: 30px;
+        }
+        footer .footer .container .icon {
+            display: flex;
+        }
+        footer .footer .container .icon .fa {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid rgb(240, 240, 240);
+            margin-right: 20px;
+            font-size: 15px;
+            width: 30px;
+            height: 30px;
+            cursor: pointer;
+            transition: .3s;
+        }
+        footer .footer .container .icon .fa:hover {
+            transition: .5s;
+            background-color: #fffbfb;
+            
+        }
+        footer {
+            background-color: rgb(10, 10, 10);
+            display: flex;
+            justify-content: center;
+            height: 190px;
+        }
+        
+        .footer .confid a{
+            font-family: "Manrope-r";
+            text-decoration: underline;
+            color: #ffffff;
+            font-size: 10px;
+            margin-right: 60px;
+        }
+        .about .container .history p{
+            font-size: 11px;
+            width: 250px;
+        }
+        .about .container .history{
+            margin-left: 200px;
+            margin-top: -80px;
+        }
+        
+        .about h2{
+            font-size: 30px;
+            margin: 15px;
+            display: flex;
+            justify-content: start;
+            font-family: "Neutral";
+        }
+        .about .container img{
+            height: 330px;
+            width: 230px;
+            margin-left: 230px;
+        }
+        .about .container{
+            flex-direction: column;
+        } 
+}
